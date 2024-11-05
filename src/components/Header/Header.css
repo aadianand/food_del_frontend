@@ -1,10 +1,14 @@
 .header{
     height: 34vw;
+    /* height: 50vw; */
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    /* background: url('/bg.png') no-repeat; */
-    background-size:contain;
+    /* background: url('/header_img.png') no-repeat; */
+    background: url('/bg55.png') no-repeat center center;
+    border-radius: 15px;
+    /* background-size:contain; */
+    background-size: cover;
     position: relative;
+    opacity: 0.95;
 }
 .header-contents{
     position: absolute;
@@ -19,19 +23,34 @@
 }
 .header-contents h2{
     font-weight:500;
+    /* color: rgb(255, 76, 36); */
+    /* color: rgb(164, 33, 3); */
+    /* color: black; */
+    /* color: rgb(73,85,126); */
     color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    /* font-weight: bold; */
     font-size: max(4.5vw,22px);
 }
 .header-contents p{
+    /* color: white; */
+    /* color: rgb(255, 76, 36); */
+    /* color: rgb(164, 33, 3); */
+    /* color: rgb(73,85,126); */
+    /* color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.3);  */
     color: white;
-    font-size: 1vw;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    font-size: 1.1vw;
 }
 .header-contents button{
     border: none;
-    color: #747474;
+    /* color: #747474; */
+    color: white;
     font-weight: 500;
     padding: 1vw 2.3vw;
     background: white;
+    background: rgb(164, 33, 3);
     font-size: max(1vw,13px);
     border-radius: 50px;
 }

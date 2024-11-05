@@ -14,6 +14,14 @@
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
 }
+
+.footer-content-left img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease; /* Smooth scaling */
+}
+
 .footer-content-left , .footer-content-center , .footer-content-right {
     display: flex;
     flex-direction: column;

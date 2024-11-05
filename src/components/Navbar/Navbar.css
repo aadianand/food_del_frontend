@@ -1,13 +1,23 @@
 .navbar {
-    padding: 20px 0px;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar .logo {
+/* .navbar .logo {
     width: 150px;
+} */
+
+.navbar .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding: 0px; /* Add padding for spacing */
+    margin: 0 5px; /* Adjust horizontal margin */
+    object-fit: contain; /* Ensures the image fits nicely within the container */
+    border-radius: 20%;
 }
+
 
 .navbar-menu {
     display: flex;
